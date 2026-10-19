@@ -36,6 +36,9 @@ jobs:
       - name: Fix local package path
         run: sed -i "s|\.\./flixquest-betterplayer|flixquest-betterplayer|" pubspec.yaml
 
+      - name: Create default environment file
+        run: touch .env
+
       - name: Install dependencies
         run: flutter pub get
 
