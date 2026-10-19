@@ -15,10 +15,10 @@ ThemeData darkThemeData(
         BottomSheetThemeData(backgroundColor: Colors.grey.shade900),
     appBarTheme: AppBarTheme(
       backgroundColor: isM3Enabled
-          ? darkDynamicColor?.primary ?? Color(0xFFF57C00)
+          ? darkDynamicColor?.primary ?? Color(0xFFC1121F)
           : useUserColor
               ? color.cs.primary
-              : Color(0xFFF57C00),
+              : Color(0xFFC1121F),
       iconTheme: IconThemeData(
         color: isM3Enabled
             ? darkDynamicColor?.onPrimary ?? Colors.black
@@ -37,16 +37,16 @@ ThemeData darkThemeData(
     ),
     dialogTheme: DialogThemeData(backgroundColor: Color(0xFF171717)),
     primaryColor: isM3Enabled
-        ? darkDynamicColor?.primary ?? Color(0xFFF57C00)
+        ? darkDynamicColor?.primary ?? Color(0xFFC1121F)
         : useUserColor
             ? color.cs.primary
-            : Color(0xFFF57C00),
+            : Color(0xFFC1121F),
     iconTheme: IconThemeData(
       color: isM3Enabled
-          ? darkDynamicColor?.primary ?? Color(0xFFF57C00)
+          ? darkDynamicColor?.primary ?? Color(0xFFC1121F)
           : useUserColor
               ? color.cs.primary
-              : Color(0xFFF57C00),
+              : Color(0xFFC1121F),
     ),
     bannerTheme: MaterialBannerThemeData(),
     chipTheme: ChipThemeData(),
@@ -65,18 +65,18 @@ ThemeData darkThemeData(
     scaffoldBackgroundColor: Color(0xFF161716),
     radioTheme: RadioThemeData(
         fillColor: WidgetStatePropertyAll(isM3Enabled
-            ? darkDynamicColor?.primary ?? Color(0xFFF57C00)
+            ? darkDynamicColor?.primary ?? Color(0xFFC1121F)
             : useUserColor
                 ? color.cs.primary
-                : Color(0xFFF57C00))),
+                : Color(0xFFC1121F))),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ButtonStyle(
         backgroundColor: WidgetStatePropertyAll(
           isM3Enabled
-              ? darkDynamicColor?.primary ?? Color(0xFFF57C00)
+              ? darkDynamicColor?.primary ?? Color(0xFFC1121F)
               : useUserColor
                   ? color.cs.primary
-                  : Color(0xFFF57C00),
+                  : Color(0xFFC1121F),
         ),
         foregroundColor: WidgetStatePropertyAll(
           isM3Enabled
@@ -92,10 +92,10 @@ ThemeData darkThemeData(
           backgroundColor: WidgetStateProperty.all(
             isM3Enabled
                 ? darkDynamicColor?.primary.withValues(alpha: 0.1) ??
-                    Color(0xFFF57C00).withValues(alpha: 0.1)
+                    Color(0xFFC1121F).withValues(alpha: 0.1)
                 : useUserColor
                     ? color.cs.primary.withValues(alpha: 0.1)
-                    : Color(0xFFF57C00).withValues(alpha: 0.1),
+                    : Color(0xFFC1121F).withValues(alpha: 0.1),
           ),
           maximumSize: WidgetStateProperty.all(const Size(200, 60)),
           shape: WidgetStateProperty.all<RoundedRectangleBorder>(
@@ -103,10 +103,10 @@ ThemeData darkThemeData(
                   borderRadius: BorderRadius.circular(5.0),
                   side: BorderSide(
                     color: isM3Enabled
-                        ? darkDynamicColor?.primary ?? Color(0xFFF57C00)
+                        ? darkDynamicColor?.primary ?? Color(0xFFC1121F)
                         : useUserColor
                             ? color.cs.primary
-                            : Color(0xFFF57C00),
+                            : Color(0xFFC1121F),
                   )))),
     ),
     progressIndicatorTheme: ProgressIndicatorThemeData(
@@ -116,17 +116,17 @@ ThemeData darkThemeData(
               ? color.cs.onPrimary
               : Colors.black,
       color: isM3Enabled
-          ? darkDynamicColor?.primary ?? Color(0xFFF57C00)
+          ? darkDynamicColor?.primary ?? Color(0xFFC1121F)
           : useUserColor
               ? color.cs.primary
-              : Color(0xFFF57C00),
+              : Color(0xFFC1121F),
     ),
     textSelectionTheme: TextSelectionThemeData(
       cursorColor: isM3Enabled
-          ? darkDynamicColor?.primary ?? Color(0xFFF57C00)
+          ? darkDynamicColor?.primary ?? Color(0xFFC1121F)
           : useUserColor
               ? color.cs.primary
-              : Color(0xFFF57C00),
+              : Color(0xFFC1121F),
       selectionHandleColor: const Color(0xFFFFFFFF),
       selectionColor: Colors.white12,
     ),
@@ -144,18 +144,18 @@ ThemeData darkThemeData(
       unselectedLabelStyle:
           const TextStyle(fontFamily: 'FigtreeSB', fontWeight: FontWeight.w500),
       indicatorColor: isM3Enabled
-          ? darkDynamicColor?.primary ?? Color(0xFFF57C00)
+          ? darkDynamicColor?.primary ?? Color(0xFFC1121F)
           : useUserColor
               ? color.cs.primary
-              : Color(0xFFF57C00),
+              : Color(0xFFC1121F),
     ),
     switchTheme: SwitchThemeData(
       thumbColor: WidgetStatePropertyAll(
         isM3Enabled
-            ? darkDynamicColor?.primary ?? Color(0xFFF57C00)
+            ? darkDynamicColor?.primary ?? Color(0xFFC1121F)
             : useUserColor
                 ? color.cs.primary
-                : Color(0xFFF57C00),
+                : Color(0xFFC1121F),
       ),
       trackColor: WidgetStatePropertyAll(
         isM3Enabled
@@ -167,10 +167,10 @@ ThemeData darkThemeData(
     ),
     colorScheme: ColorScheme(
       primary: isM3Enabled
-          ? darkDynamicColor?.primary ?? Color(0xFFF57C00)
+          ? darkDynamicColor?.primary ?? Color(0xFFC1121F)
           : useUserColor
               ? color.cs.primary
-              : Color(0xFFF57C00),
+              : Color(0xFFC1121F),
       primaryContainer: isM3Enabled
           ? darkDynamicColor?.primaryContainer ?? Color(0xFF723600)
           : useUserColor
@@ -291,10 +291,10 @@ ThemeData lightThemeData(
         BottomSheetThemeData(backgroundColor: Colors.grey.shade400),
     appBarTheme: AppBarTheme(
       backgroundColor: isM3Enabled
-          ? lightDynamicColor?.primary ?? Color(0xFFF57C00)
+          ? lightDynamicColor?.primary ?? Color(0xFFC1121F)
           : useUserColor
               ? color.cs.primary
-              : Color(0xFFF57C00),
+              : Color(0xFFC1121F),
       iconTheme: IconThemeData(
         color: isM3Enabled
             ? lightDynamicColor?.onPrimary ?? Colors.black
@@ -313,16 +313,16 @@ ThemeData lightThemeData(
     ),
     dialogTheme: DialogThemeData(backgroundColor: Color(0xFFdedede)),
     primaryColor: isM3Enabled
-        ? lightDynamicColor?.primary ?? Color(0xFFF57C00)
+        ? lightDynamicColor?.primary ?? Color(0xFFC1121F)
         : useUserColor
             ? color.cs.primary
-            : const Color(0xFFF57C00),
+            : const Color(0xFFC1121F),
     iconTheme: IconThemeData(
       color: isM3Enabled
-          ? lightDynamicColor?.primary ?? Color(0xFFF57C00)
+          ? lightDynamicColor?.primary ?? Color(0xFFC1121F)
           : useUserColor
               ? color.cs.primary
-              : Color(0xFFF57C00),
+              : Color(0xFFC1121F),
     ),
     bannerTheme: MaterialBannerThemeData(),
     chipTheme: ChipThemeData(),
@@ -341,18 +341,18 @@ ThemeData lightThemeData(
     scaffoldBackgroundColor: Color(0xFFf5f5f5),
     radioTheme: RadioThemeData(
         fillColor: WidgetStatePropertyAll(isM3Enabled
-            ? lightDynamicColor?.primary ?? Color(0xFFF57C00)
+            ? lightDynamicColor?.primary ?? Color(0xFFC1121F)
             : useUserColor
                 ? color.cs.primary
-                : Color(0xFFF57C00))),
+                : Color(0xFFC1121F))),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ButtonStyle(
         backgroundColor: WidgetStatePropertyAll(
           isM3Enabled
-              ? lightDynamicColor?.primary ?? Color(0xFFF57C00)
+              ? lightDynamicColor?.primary ?? Color(0xFFC1121F)
               : useUserColor
                   ? color.cs.primary
-                  : Color(0xFFF57C00),
+                  : Color(0xFFC1121F),
         ),
         foregroundColor: WidgetStatePropertyAll(
           isM3Enabled
@@ -368,10 +368,10 @@ ThemeData lightThemeData(
           backgroundColor: WidgetStateProperty.all(
             isM3Enabled
                 ? lightDynamicColor?.primary.withValues(alpha: 0.1) ??
-                    Color(0xFFF57C00).withValues(alpha: 0.1)
+                    Color(0xFFC1121F).withValues(alpha: 0.1)
                 : useUserColor
                     ? color.cs.primary.withValues(alpha: 0.1)
-                    : Color(0xFFF57C00).withValues(alpha: 0.1),
+                    : Color(0xFFC1121F).withValues(alpha: 0.1),
           ),
           maximumSize: WidgetStateProperty.all(const Size(200, 60)),
           shape: WidgetStateProperty.all<RoundedRectangleBorder>(
@@ -379,10 +379,10 @@ ThemeData lightThemeData(
                   borderRadius: BorderRadius.circular(5.0),
                   side: BorderSide(
                     color: isM3Enabled
-                        ? lightDynamicColor?.primary ?? Color(0xFFF57C00)
+                        ? lightDynamicColor?.primary ?? Color(0xFFC1121F)
                         : useUserColor
                             ? color.cs.primary
-                            : Color(0xFFF57C00),
+                            : Color(0xFFC1121F),
                   )))),
     ),
     progressIndicatorTheme: ProgressIndicatorThemeData(
@@ -392,17 +392,17 @@ ThemeData lightThemeData(
               ? color.cs.onPrimary
               : Colors.black,
       color: isM3Enabled
-          ? lightDynamicColor?.primary ?? Color(0xFFF57C00)
+          ? lightDynamicColor?.primary ?? Color(0xFFC1121F)
           : useUserColor
               ? color.cs.primary
-              : Color(0xFFF57C00),
+              : Color(0xFFC1121F),
     ),
     textSelectionTheme: TextSelectionThemeData(
       cursorColor: isM3Enabled
-          ? lightDynamicColor?.primary ?? Color(0xFFF57C00)
+          ? lightDynamicColor?.primary ?? Color(0xFFC1121F)
           : useUserColor
               ? color.cs.primary
-              : Color(0xFFF57C00),
+              : Color(0xFFC1121F),
       selectionHandleColor: const Color(0xFF000000),
       selectionColor: Colors.black12,
     ),
@@ -420,17 +420,17 @@ ThemeData lightThemeData(
         unselectedLabelStyle: const TextStyle(
             fontFamily: 'FigtreeSB', fontWeight: FontWeight.w500),
         indicatorColor: isM3Enabled
-            ? lightDynamicColor?.primary ?? Color(0xFFF57C00)
+            ? lightDynamicColor?.primary ?? Color(0xFFC1121F)
             : useUserColor
                 ? color.cs.primary
-                : Color(0xFFF57C00)),
+                : Color(0xFFC1121F)),
     switchTheme: SwitchThemeData(
       thumbColor: WidgetStatePropertyAll(
         isM3Enabled
-            ? lightDynamicColor?.primary ?? Color(0xFFF57C00)
+            ? lightDynamicColor?.primary ?? Color(0xFFC1121F)
             : useUserColor
                 ? color.cs.primary
-                : Color(0xFFF57C00),
+                : Color(0xFFC1121F),
       ),
       trackColor: WidgetStatePropertyAll(
         isM3Enabled
@@ -442,10 +442,10 @@ ThemeData lightThemeData(
     ),
     colorScheme: ColorScheme(
       primary: isM3Enabled
-          ? lightDynamicColor?.primary ?? Color(0xFFF57C00)
+          ? lightDynamicColor?.primary ?? Color(0xFFC1121F)
           : useUserColor
               ? color.cs.primary
-              : const Color(0xFFF57C00),
+              : const Color(0xFFC1121F),
       primaryContainer: isM3Enabled
           ? lightDynamicColor?.primaryContainer ?? Color(0xFFffdcc6)
           : useUserColor
@@ -566,10 +566,10 @@ ThemeData lightsOutThemeData(
         BottomSheetThemeData(backgroundColor: Colors.grey.shade900),
     appBarTheme: AppBarTheme(
       backgroundColor: isM3Enabled
-          ? darkDynamicColor?.primary ?? Color(0xFFF57C00)
+          ? darkDynamicColor?.primary ?? Color(0xFFC1121F)
           : useUserColor
               ? color.cs.primary
-              : Color(0xFFF57C00),
+              : Color(0xFFC1121F),
       iconTheme: IconThemeData(
         color: isM3Enabled
             ? darkDynamicColor?.onPrimary ?? Colors.black
@@ -594,16 +594,16 @@ ThemeData lightsOutThemeData(
     ),
     dialogTheme: DialogThemeData(backgroundColor: Color(0xFF171717)),
     primaryColor: isM3Enabled
-        ? darkDynamicColor?.primary ?? Color(0xFFF57C00)
+        ? darkDynamicColor?.primary ?? Color(0xFFC1121F)
         : useUserColor
             ? color.cs.primary
-            : const Color(0xFFF57C00),
+            : const Color(0xFFC1121F),
     iconTheme: IconThemeData(
       color: isM3Enabled
-          ? darkDynamicColor?.primary ?? Color(0xFFF57C00)
+          ? darkDynamicColor?.primary ?? Color(0xFFC1121F)
           : useUserColor
               ? color.cs.primary
-              : Color(0xFFF57C00),
+              : Color(0xFFC1121F),
     ),
     bannerTheme: MaterialBannerThemeData(),
     chipTheme: ChipThemeData(),
@@ -623,18 +623,18 @@ ThemeData lightsOutThemeData(
     scaffoldBackgroundColor: Colors.black,
     radioTheme: RadioThemeData(
         fillColor: WidgetStatePropertyAll(isM3Enabled
-            ? darkDynamicColor?.primary ?? Color(0xFFF57C00)
+            ? darkDynamicColor?.primary ?? Color(0xFFC1121F)
             : useUserColor
                 ? color.cs.primary
-                : Color(0xFFF57C00))),
+                : Color(0xFFC1121F))),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ButtonStyle(
         backgroundColor: WidgetStatePropertyAll(
           isM3Enabled
-              ? darkDynamicColor?.primary ?? Color(0xFFF57C00)
+              ? darkDynamicColor?.primary ?? Color(0xFFC1121F)
               : useUserColor
                   ? color.cs.primary
-                  : Color(0xFFF57C00),
+                  : Color(0xFFC1121F),
         ),
         foregroundColor: WidgetStatePropertyAll(
           isM3Enabled
@@ -650,10 +650,10 @@ ThemeData lightsOutThemeData(
           backgroundColor: WidgetStateProperty.all(
             isM3Enabled
                 ? darkDynamicColor?.primary.withValues(alpha: 0.1) ??
-                    Color(0xFFF57C00).withValues(alpha: 0.1)
+                    Color(0xFFC1121F).withValues(alpha: 0.1)
                 : useUserColor
                     ? color.cs.primary.withValues(alpha: 0.1)
-                    : Color(0xFFF57C00).withValues(alpha: 0.1),
+                    : Color(0xFFC1121F).withValues(alpha: 0.1),
           ),
           maximumSize: WidgetStateProperty.all(const Size(200, 60)),
           shape: WidgetStateProperty.all<RoundedRectangleBorder>(
@@ -661,10 +661,10 @@ ThemeData lightsOutThemeData(
                   borderRadius: BorderRadius.circular(5.0),
                   side: BorderSide(
                     color: isM3Enabled
-                        ? darkDynamicColor?.primary ?? Color(0xFFF57C00)
+                        ? darkDynamicColor?.primary ?? Color(0xFFC1121F)
                         : useUserColor
                             ? color.cs.primary
-                            : Color(0xFFF57C00),
+                            : Color(0xFFC1121F),
                   )))),
     ),
     progressIndicatorTheme: ProgressIndicatorThemeData(
@@ -672,17 +672,17 @@ ThemeData lightsOutThemeData(
           ? darkDynamicColor?.onPrimary ?? Colors.black
           : Colors.black,
       color: isM3Enabled
-          ? darkDynamicColor?.primary ?? Color(0xFFF57C00)
+          ? darkDynamicColor?.primary ?? Color(0xFFC1121F)
           : useUserColor
               ? color.cs.primary
-              : Color(0xFFF57C00),
+              : Color(0xFFC1121F),
     ),
     textSelectionTheme: TextSelectionThemeData(
       cursorColor: isM3Enabled
-          ? darkDynamicColor?.primary ?? Color(0xFFF57C00)
+          ? darkDynamicColor?.primary ?? Color(0xFFC1121F)
           : useUserColor
               ? color.cs.primary
-              : Color(0xFFF57C00),
+              : Color(0xFFC1121F),
       selectionHandleColor: const Color(0xFFFFFFFF),
       selectionColor: Colors.white12,
     ),
@@ -700,18 +700,18 @@ ThemeData lightsOutThemeData(
       unselectedLabelStyle:
           const TextStyle(fontFamily: 'FigtreeSB', fontWeight: FontWeight.w500),
       indicatorColor: isM3Enabled
-          ? darkDynamicColor?.primary ?? Color(0xFFF57C00)
+          ? darkDynamicColor?.primary ?? Color(0xFFC1121F)
           : useUserColor
               ? color.cs.primary
-              : Color(0xFFF57C00),
+              : Color(0xFFC1121F),
     ),
     switchTheme: SwitchThemeData(
       thumbColor: WidgetStatePropertyAll(
         isM3Enabled
-            ? darkDynamicColor?.primary ?? Color(0xFFF57C00)
+            ? darkDynamicColor?.primary ?? Color(0xFFC1121F)
             : useUserColor
                 ? color.cs.primary
-                : Color(0xFFF57C00),
+                : Color(0xFFC1121F),
       ),
       trackColor: WidgetStatePropertyAll(
         isM3Enabled
@@ -723,10 +723,10 @@ ThemeData lightsOutThemeData(
     ),
     colorScheme: ColorScheme(
       primary: isM3Enabled
-          ? darkDynamicColor?.primary ?? Color(0xFFF57C00)
+          ? darkDynamicColor?.primary ?? Color(0xFFC1121F)
           : useUserColor
               ? color.cs.primary
-              : const Color(0xFFF57C00),
+              : const Color(0xFFC1121F),
       primaryContainer: isM3Enabled
           ? darkDynamicColor?.primaryContainer ?? Color(0xFF723600)
           : useUserColor
